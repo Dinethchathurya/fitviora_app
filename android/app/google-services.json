@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "104287385697",
+    "project_id": "nutrition-app-7726b",
+    "storage_bucket": "nutrition-app-7726b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:104287385697:android:04db3edfa99e5a509d9220",
+        "android_client_info": {
+          "package_name": "com.example.fitviora"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBB8GBvCzK1CCJtJSkdkaxaJeamRC-s5FA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:104287385697:android:777d119477c8b7fa9d9220",
+        "android_client_info": {
+          "package_name": "com.example.fitviora_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBB8GBvCzK1CCJtJSkdkaxaJeamRC-s5FA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:104287385697:android:dc74b28bbfe1cf189d9220",
+        "android_client_info": {
+          "package_name": "com.example.nutrition_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBB8GBvCzK1CCJtJSkdkaxaJeamRC-s5FA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

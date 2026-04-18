@@ -1,13 +1,37 @@
+// import 'package:firebase_core/firebase_core.dart';
+// import 'package:flutter/material.dart';
+// import 'app/app.dart';
+
+// Future<void> main() async {
+//   WidgetsFlutterBinding.ensureInitialized();
+//   // try {
+
+//     await Firebase.initializeApp(
+//         options: DefaultFirebaseOptions.currentPlatform,
+//     );
+
+//   // } catch (e) {
+
+//   //   debugPrint("Firebase init error: $e");
+
+//   // }
+//   runApp(const FitVioraApp());
+// }
+
+
+
+
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'app/app.dart';
+import 'firebase_options.dart'; // ✅ REQUIRED
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  try {
-    await Firebase.initializeApp();
-  } catch (_) {
-    // Firebase config can be added later.
-  }
+
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
+
   runApp(const FitVioraApp());
 }
